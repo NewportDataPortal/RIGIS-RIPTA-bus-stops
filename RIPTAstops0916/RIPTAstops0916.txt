@@ -1,0 +1,408 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: Rhode Island Public Transit Authority (RIPTA)
+      Publication_Date: 20160906
+      Title: RIPTA Bus Stops (September 2016); RIPTAstops0916
+      Geospatial_Data_Presentation_Form: vector digital data
+      Publication_Information:
+        Publication_Place: Providence, RI
+        Publisher: RIPTA
+      Other_Citation_Details: Suggested bibliographic reference: RIGIS, 2016. RIPTA Bus Stops (September 2016); RIPTAstops0916. Rhode Island Geographic Information System (RIGIS) Data Distribution System, URL: http://www.rigis.org, Environmental Data Center, University of Rhode Island, Kingston, Rhode Island (last date accessed: 9 September 2016).
+      Online_Linkage: http://www.rigis.org
+      Online_Linkage: http://www.ripta.com
+      Larger_Work_Citation:
+        Citation_Information:
+          Originator: Rhode Island Geographic Information System (RIGIS)
+          Publication_Date: 1993
+          Title: Rhode Island Geographic Information System (RIGIS) Data Distribution System
+          Online_Linkage: http://www.rigis.org
+  Description:
+    Abstract: Rhode Island Public Transit Authority (RIPTA) statewide bus stops for public transit service with individual route and stop information effective January 2016.
+    Purpose: Transportation and transit system planning.
+    Supplemental_Information: It is not the intention when using this data set to  determine the exact routing, timing or scheduling of bus trips. Transit system routes and  schedules  including frequency of service change periodically.  Users of this data should check with RIPTA for the most up to data information and not rely on this data for final determinations. Please visit the RIPTA website for official bus stop and bus route information http://www.ripta.com.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 20160903
+        Ending_Date: 20170113
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: As needed
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -71.833439
+      East_Bounding_Coordinate: -71.241050
+      North_Bounding_Coordinate: 42.016922
+      South_Bounding_Coordinate: 41.372319
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+      Theme_Keyword: transportation
+    Theme:
+      Theme_Keyword_Thesaurus: none
+      Theme_Keyword: RIPTA
+      Theme_Keyword: Transit
+      Theme_Keyword: Transportation
+      Theme_Keyword: Public Transit
+      Theme_Keyword: Bus stops
+      Theme_Keyword: Ground Transportation
+      Theme_Keyword: park and ride
+    Place:
+      Place_Keyword_Thesaurus: none
+      Place_Keyword: USA
+      Place_Keyword: Northeast
+      Place_Keyword: New England
+      Place_Keyword: Rhode Island
+  Access_Constraints: None.
+  Use_Constraints:
+    This dataset is provided 'as is.’ The producer(s) of this dataset, contributors to this dataset, the Rhode Island Geographic Information System (RIGIS) consortium, the State of Rhode Island, and the University of Rhode Island do not make any warranties of any kind for this dataset, and are not liable for any loss or damage however and whenever caused by any use of this dataset. Please acknowledge both RIGIS and the primary producer(s) of this dataset in any derived products. Versions of the RIGIS logo suitable for both printed and web-based products are available at http://www.rigis.org/logos.
+    RIPTA bus stops, routes, and route number assignments may change with conditions and administrative or managment decisions made after the publication of these data.  Users are advised to check the RIPTA website for verification.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: RIPTA
+        Contact_Person: Sheryl Cripps
+      Contact_Position: Data Analyst
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: 705 Elmwood Avenue
+        City: Providence
+        State_or_Province: RI
+        Postal_Code: 02907
+      Contact_Voice_Telephone: 401-784-9500 x 221
+      Contact_Facsimile_Telephone: 401-784-9523
+      Contact_Electronic_Mail_Address: scripps@ripta.com
+  Data_Set_Credit: Rhode Island Public Transit Authority
+Data_Quality_Information:
+  Logical_Consistency_Report: Basic complete ESRI point feature shape file.
+  Completeness_Report: Complete to the date of publication as verified by inspection by RIPTA.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report: (none provided)
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: RIDOT
+          Title: RIDOT Roads 2010
+          Series_Information:
+            Series_Name: RIDOT Roads 2010
+            Issue_Identification: 2010
+          Publication_Information:
+            Publication_Place: Providence, RI
+            Publisher: RIDOT
+      Type_of_Source_Media: vector digital data
+      Source_Contribution: Used as spatial base for roads over which bus stops are located.
+    Process_Step:
+      Process_Description: Bus stop locations were manually positioned over digital road centerline features in the RIGIS RIDOT roads data set with ESRI ArcGIS software or located mapping grade GPS techniques.
+      Process_Date: 20160205
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: RIPTA
+            Contact_Person: Sheryl Cripps
+          Contact_Position: Data Analyst
+          Contact_Address:
+            Address_Type: mailing and physical address
+            Address: 705 Elmwood Avenue
+            City: Providence
+            State_or_Province: RI
+            Postal_Code: 02907
+          Contact_Voice_Telephone: 401-784-9500 x 221
+          Contact_Facsimile_Telephone: 401-784-9523
+          Contact_Electronic_Mail_Address: scripps@ripta.com
+    Process_Step:
+      Process_Description: Data contributed to RIGIS by the Rhode Island Public Transit Authority.  Metadata were adapted, minor updates made to content, RIGIS distribution information added.
+      Process_Date: 20160909
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: University of Rhode Island Environmental Data Center
+            Contact_Person: Erica Tefft
+          Contact_Address:
+            Address_Type: mailing and physical
+            Address: 1 Greenhouse Road
+            City: Kingston
+            State_or_Province: RI
+            Postal_Code: 02881
+          Contact_Voice_Telephone: 401-874-5054
+          Contact_Electronic_Mail_Address: erica@edc.uri.edu
+          Contact_Instructions: email preferred
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Entity point
+      Point_and_Vector_Object_Count: 5014
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Map_Projection:
+        Map_Projection_Name: NAD 1983 StatePlane Rhode Island FIPS 3800 Feet
+        Transverse_Mercator:
+          Scale_Factor_at_Central_Meridian: 0.99999375
+          Longitude_of_Central_Meridian: -71.5
+          Latitude_of_Projection_Origin: 41.08333333333334
+          False_Easting: 328083.3333333333
+          False_Northing: 0.0
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.00000000003195086214269339
+          Ordinate_Resolution: 0.00000000003195086214269339
+        Planar_Distance_Units: foot_us
+    Geodetic_Model:
+      Horizontal_Datum_Name: D North American 1983
+      Ellipsoid_Name: GRS 1980
+      Semi-major_Axis: 6378137.0
+      Denominator_of_Flattening_Ratio: 298.257222101
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: RIPTAstops0116
+    Attribute:
+      Attribute_Label: FID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: ROUTE
+      Attribute_Definition: RIPTA Route Number
+      Attribute_Definition_Source: RIPTA
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: RIPTA Route Numbers
+          Codeset_Source: http://www.ripta.com
+    Attribute:
+      Attribute_Label: DIRECTION
+      Attribute_Definition: Indicates whether stop is served during inbound or outbound route.
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: free text
+    Attribute:
+      Attribute_Label: SEQ
+      Attribute_Definition: Sequence of stop within route.
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: free text
+    Attribute:
+      Attribute_Label: LATITUDE
+      Attribute_Definition: Latitude of bus stop.
+      Attribute_Definition_Source: RIPTA
+    Attribute:
+      Attribute_Label: LONGITUDE
+      Attribute_Definition: Longitude of bus stop.
+      Attribute_Definition_Source: RIPTA
+    Attribute:
+      Attribute_Label: RIPTA_ID
+      Attribute_Definition: Unique RIPTA identifier for stop.
+      Attribute_Definition_Source: RIPTA
+    Attribute:
+      Attribute_Label: TOWN
+      Attribute_Definition: Name of municipality where stop is located.
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: free text
+    Attribute:
+      Attribute_Label: STREET
+      Attribute_Definition: Name of street where stop is located.
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: free text
+    Attribute:
+      Attribute_Label: SIGN_LOC
+      Attribute_Definition: Location of the RIPTA bus stop sign.
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: free text
+    Attribute:
+      Attribute_Label: XST_ADD
+      Attribute_Definition: Address of the cross street at which the stop is located.
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: free text
+    Attribute:
+      Attribute_Label: LANDMARK
+      Attribute_Definition: Landmark near which bus stop is located, where available/applicable.
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: free text
+    Attribute:
+      Attribute_Label: PROP_TYPE
+      Attribute_Definition: Type of property near which the bus stop is located.
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: free text
+    Attribute:
+      Attribute_Label: SIGNTYPE
+      Attribute_Definition: Sign Type
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: INTERNATIONAL
+          Enumerated_Domain_Value_Definition: International Bus Stop Sign
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CITY BUS STOP
+          Enumerated_Domain_Value_Definition: City Sign
+        Enumerated_Domain:
+          Enumerated_Domain_Value: DOT
+          Enumerated_Domain_Value_Definition: DOT sign.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: MISSING
+          Enumerated_Domain_Value_Definition: No Sign
+        Enumerated_Domain:
+          Enumerated_Domain_Value: OTHER
+          Enumerated_Domain_Value_Definition: Other sign type.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: INTERNATIONAL, CITY BUS STOP
+          Enumerated_Domain_Value_Definition: International and city sign.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: OLD RIPTA
+          Enumerated_Domain_Value_Definition: Old RIPTA Sign
+        Enumerated_Domain:
+          Enumerated_Domain_Value: NO PARKING BUS STOP
+          Enumerated_Domain_Value_Definition: No parking sign.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: SEE SHELTER TYPE
+          Enumerated_Domain_Value_Definition: For more information on sign type, see SHELTER field.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: TROLLEY
+          Enumerated_Domain_Value_Definition: Trolley Sign.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: YELLOW BAND
+          Enumerated_Domain_Value_Definition: Yellow Band Around light pole.
+    Attribute:
+      Attribute_Label: SIGN_ATT
+      Attribute_Definition: What sign is attached to.
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: free text
+    Attribute:
+      Attribute_Label: SHELTER
+      Attribute_Definition: Shelter Availability and/or Ownership
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: free text
+    Attribute:
+      Attribute_Label: SIDEWALK
+      Attribute_Definition: Whether a sidewalk is available at the stop location.
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: YES
+          Enumerated_Domain_Value_Definition: Yes, sidewalk present.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: NO
+          Enumerated_Domain_Value_Definition: No sidewalk present.
+    Attribute:
+      Attribute_Label: INFOPOST
+      Attribute_Definition: Information posted at bus stop.
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: YES
+          Enumerated_Domain_Value_Definition: Yes, information posted.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: NO
+          Enumerated_Domain_Value_Definition: No information posted.
+    Attribute:
+      Attribute_Label: LIGHTING
+      Attribute_Definition: Lighting available at bus stop.
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: YES
+          Enumerated_Domain_Value_Definition: Yes, lighting present.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: NO
+          Enumerated_Domain_Value_Definition: No lighting present.
+    Attribute:
+      Attribute_Label: ACCESSIBLE
+      Attribute_Definition: Handicaped accesibility of bus stop.
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: YES
+          Enumerated_Domain_Value_Definition: Yes, handicaped accessible.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: NO
+          Enumerated_Domain_Value_Definition: Not handicaped accessible.
+    Attribute:
+      Attribute_Label: CURB
+      Attribute_Definition: Whether a curb is present at the stop location.
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: YES
+          Enumerated_Domain_Value_Definition: Yes, curb present.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: NO
+          Enumerated_Domain_Value_Definition: No curb present.
+    Attribute:
+      Attribute_Label: BUS_CURB
+      Attribute_Definition: Can bus pull up to curb.
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: YES
+          Enumerated_Domain_Value_Definition: Yes, bus can pull to curb.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: NO
+          Enumerated_Domain_Value_Definition: No bus cannot pull to curb.
+    Attribute:
+      Attribute_Label: NO_PARK
+      Attribute_Definition: No parkign sign present at bus stop location.
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: YES
+          Enumerated_Domain_Value_Definition: Yes, sign present.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: NO
+          Enumerated_Domain_Value_Definition: No sign present.
+    Attribute:
+      Attribute_Label: COMMENTS
+      Attribute_Definition: Comments that will help with stop ID or other important information about stop location.
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: free text
+    Attribute:
+      Attribute_Label: RTS_SERVE
+      Attribute_Definition: Routes served at bus stop location.
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: free text
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: University of Rhode Island Environmental Data Center
+        Contact_Person: Erica Tefft
+      Contact_Address:
+        Address_Type: mailing and physical
+        Address: 1 Greenhouse Road
+        City: Kingston
+        State_or_Province: RI
+        Postal_Code: 02881
+      Contact_Voice_Telephone: 401-874-5054
+      Contact_Electronic_Mail_Address: erica@edc.uri.edu
+      Contact_Instructions: email preferred
+  Distribution_Liability: This dataset is provided 'as is.'  The producer(s) of this dataset, contributors to this dataset, the Rhode Island Geographic Information System (RIGIS) consortium, the State of Rhode Island, and the University of Rhode Island do not make any warranties of any kind for this dataset, and are not liable for any loss or damage however and whenever caused by any use of this dataset.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: Esri shapefile
+        File_Decompression_Technique: ZIP
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: http://www.rigis.org
+    Fees: No fee for downloading directly from the RIGIS Data Distribution System located at http://www.rigis.org.
+Metadata_Reference_Information:
+  Metadata_Date: 20160909
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: RIPTA
+        Contact_Person: Sheryl Cripps
+      Contact_Position: Data Analyst
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: 705 Elmwood Avenue
+        City: Providence
+        State_or_Province: RI
+        Postal_Code: 02907
+      Contact_Voice_Telephone: 401-784-9500 x 221
+      Contact_Facsimile_Telephone: 401-784-9523
+      Contact_Electronic_Mail_Address: scripps@ripta.com
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
